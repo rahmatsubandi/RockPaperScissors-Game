@@ -125,9 +125,9 @@ while True:
 
     if len(stone) == 0 and len(paper) == 0 and len(scissors) == 0:
         for(x, y, w, h) in none:
-            # cv2.rectangle(img, (x,y), (x+w,y+h), (255,255,0),2)
-            roi_gray = gray[y:y+h, x:x+w]
-            roi_color = img[y:y+h, x:x+w]
+            #cv2.rectangle(img, (x,y), (x+w,y+h), (255,255,0),2)
+            #roi_gray = gray[y:y+h,x:x+w]
+            #roi_color = img[y:y+h,x:x+w]
             img1 = cv2.imread("./img/none.jpg")
             cv2.imshow('Computer', img1)
             count_n += 1
